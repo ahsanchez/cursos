@@ -1,5 +1,13 @@
 # Compiled class file
 *.class
+/target
+/tessdata
+.settings
+.mvn
+.classpath
+.project
+mvnw
+mvnw.cmd
 
 # Log file
 *.log
