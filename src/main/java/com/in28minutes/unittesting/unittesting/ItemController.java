@@ -11,7 +11,7 @@ import com.in28minutes.unittesting.unittesting.model.Item;
 public class ItemController {
     
     @Autowired
-    ItemBusinessService businessService;
+   private  ItemBusinessService businessService;
     
     @GetMapping("/dummy-item")
     public Item dummyItem(){
